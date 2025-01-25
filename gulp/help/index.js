@@ -1,18 +1,19 @@
 const { desc } = require('./description');
-const {divider, title} = require('./vars');
+const {header, footer} = require('./menu');
 const log = console.info;
 
 
 
 function help() {
-  log(divider);
-  log(title);
-  log(`1. help    - ${desc.help}`);
-  log(`2. greet   - ${desc.greet}`);
-  log(`3. version - ${desc.version}`);
-  log(`4. copy    - ${desc.copy}`);
-  log(`5. hint    - ${desc.hint}`);
-  log(divider)
+  header()
+  log(`#  1. help    - ${desc.help}                 #`);
+  log(`#  2. greet   - ${desc.greet}            #`);
+  log(`#  3. version - ${desc.version}        #`);
+  log(`#  4. copy    - ${desc.copy}   #`);
+  log(`#  5. lint    - ${desc.lint}      #`);
+  log(`#  6. hint    - ${desc.hint}      #`);
+  log(`#  7. ejs     - ${desc.ejs}          #`);
+  footer();
   return;
 };
 
