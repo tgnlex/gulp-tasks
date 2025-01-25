@@ -1,5 +1,5 @@
 const { src, dest} = require('gulp');
-const {srcPath, outPath} = require ('../vars.js');
+const {srcPath, outPath} = require ('../lib/vars.js');
 
 
 function copy() {

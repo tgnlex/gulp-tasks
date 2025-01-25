@@ -1,5 +1,5 @@
 const { src, dest } = require('gulp');
-const {jsSrc, appSrc, jsOut, appOut} = require('../vars');
+const {jsSrc, appSrc, jsOut, appOut} = require('../data/vars');
 const eslint = require('gulp-eslint');
 const source = {
   js: jsSrc + '*.js',

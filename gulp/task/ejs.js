@@ -1,5 +1,5 @@
 const { src, dest } = require('gulp')
-const { htmlSrc, htmlOut } = require('../vars');
+const { htmlSrc, htmlOut } = require('../data/vars');
 const rename = require('gulp-rename');
 const ejs = require('gulp-ejs');
 

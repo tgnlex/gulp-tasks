@@ -5,6 +5,7 @@ let out = 'build/';
 let static = src + 'static/';
 let dist = out + 'dist/';
 let public = out + 'public/';
+
 module.exports.pkg = pkg;
 module.exports.enc = 'utf8';
 module.exports.rootPath = resolve(__dirname, '../');
