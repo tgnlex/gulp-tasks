@@ -1,6 +1,6 @@
 
 const {readFileSync} = require('fs');
-const { pkgPath, enc } = require('../lib/vars.js');
+const { pkgPath, enc } = require('../data/vars.js');
 const logger = require('gulplog');
 
 
@@ -10,4 +10,4 @@ async function version() {
   logger.info(`Package Version: ${version}`);
 };
 
-module.exports = { greet, version };
+module.exports = { version };

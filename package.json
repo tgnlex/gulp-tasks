@@ -41,6 +41,7 @@
     "gulp-rm": "^2.0.0",
     "gulp-sass": "^6.0.0",
     "gulp-spawn": "^2.0.0",
+    "gulp-stylus": "^2.5.0",
     "gulp-svgmin": "^4.1.0",
     "gulp-swc": "^2.2.0",
     "gulp-token-replace": "^1.1.5",
@@ -63,6 +64,10 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
-    "gulp-clean-css": "^4.3.0"
+    "connect": "^3.7.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "nib": "^1.2.0",
+    "stylus": "^0.64.0"
   }
 }

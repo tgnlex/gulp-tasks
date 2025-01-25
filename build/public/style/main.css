@@ -1,0 +1,11 @@
+:root {
+  --test: 10px;
+}
+.test {
+  color: #f00;
+  width: 10%;
+}
+.something {
+  width: 500;
+  height: 500;
+}

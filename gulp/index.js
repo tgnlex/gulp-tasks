@@ -1,10 +1,11 @@
 const { help } = require('./help')
-const { greet } = require('./tasks/greet')
-const { version } = require('./tasks/version');
-const { copy } = require('./tasks/file');
-const { hint } = require('./tasks/hint');
-const { ejs } = require('./tasks/ejs');
-const { lint } = require('./tasks/lint');
+const { greet } = require('./task/greet')
+const { version } = require('./task/version');
+const { copy } = require('./task/file');
+const { hint } = require('./task/hint');
+const { ejs } = require('./task/ejs');
+const { lint } = require('./task/lint');
+const { stylus } = require('./task/stylus');
 module.exports = {
   greet, 
   help,
@@ -12,5 +13,6 @@ module.exports = {
   copy,
   version,
   ejs,
-  lint
+  lint,
+  stylus
 }

@@ -1,5 +1,5 @@
 const {src} = require('gulp');
-const {srcPath} = require('../lib/vars.js');
+const {srcPath} = require('../data/vars.js');
 function hint() {
 return src(srcPath + '*.js')
     .pipe(jshint());

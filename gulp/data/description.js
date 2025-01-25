@@ -6,5 +6,6 @@ module.exports.desc = {
   copy: "Copy files from /src to /dist",
   lint: "Lint JS files using eslint",
   hint: "Lint JS files using jshint",
-  ejs: "Compiles ejs into html"
+  ejs: "Compiles ejs into html",
+  stylus: "Compile .styl into css"
 };

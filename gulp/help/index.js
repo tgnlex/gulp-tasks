@@ -1,4 +1,4 @@
-const { desc } = require('./description');
+const { desc } = require('../data/description');
 const {header, footer} = require('./menu');
 const log = console.info;
 
@@ -13,6 +13,7 @@ function help() {
   log(`#  5. lint    - ${desc.lint}      #`);
   log(`#  6. hint    - ${desc.hint}      #`);
   log(`#  7. ejs     - ${desc.ejs}          #`);
+  log(`#  8. stylus  - ${desc.stylus}         #` )
   footer();
   return;
 };

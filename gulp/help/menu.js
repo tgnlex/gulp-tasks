@@ -1,4 +1,4 @@
-const {empty, divider} = require('./variables');
+const {empty, divider} = require('../data/ascii');
 const log = console.info;
 const head = {};
 const foot = {};

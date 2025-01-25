@@ -2,6 +2,7 @@ const gulp = require('gulp')
 
 const {
   version, 
+  stylus,
   greet, 
   hint, 
   lint,
@@ -10,11 +11,19 @@ const {
   ejs
 } = require('./gulp');
 
-exports.default = help;
+/*** GENERAL  ***/
 exports.help = help;
-exports.greet = greet;
 exports.version = version;
+/*** FILES ***/
 exports.copy = copy;
+/*** LINTING  ***/
 exports.hint = hint;
 exports.lint = lint;
+/*** HTML + TEMPLATE ***/
 exports.ejs = ejs;
+/*** STYLESHEETS  ***/
+exports.stylus = stylus;
+/*** JUST FOR FUN ***/
+exports.greet = greet;
+/*** DEFAULT TASK ***/
+exports.default = help;

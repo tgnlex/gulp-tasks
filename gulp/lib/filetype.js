@@ -1,5 +1,4 @@
-import ext from '../data/extnames';
-
+const {ext} = require('../data/extnames');
 function check(file, ext) {
   const extn = file.extname;
   return extn === ext;
@@ -65,7 +64,6 @@ const filetype = {
   vbs: isVBS,
   php: isPHP,
   lua: isLua,
-  sql: isSQL,
   perl: isPerl,  
   python: isPy,
   // Database 

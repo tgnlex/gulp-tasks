@@ -101,4 +101,4 @@ const ext = {
   img: img
 };
 
-export default ext;
+exports.ext = ext;
